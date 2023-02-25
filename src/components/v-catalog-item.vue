@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss">
-.v-cart-item {
+.v-catalog-item {
   flex-basis: 25%;
   box-shadow: 0 0 8px 0 grey;
   padding: 20px;
