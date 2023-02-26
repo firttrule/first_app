@@ -22,6 +22,9 @@ export default {
   },
   methods: {},
   watch: {},
+  mounted() {
+    console.log("hello Im here!");
+  },
 };
 </script>
 
