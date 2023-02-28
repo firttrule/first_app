@@ -1,6 +1,6 @@
 <template>
   <div class="v-catalog">
-    <router-link :to="{ name: 'cart', params: { cart_data: CART } }">
+    <router-link :to="{ name: 'cart' }">
       <div class="v-catalog__link_to_cart">
         <i class="medium material-icons">shopping_cart</i>
         {{ CART.length }}

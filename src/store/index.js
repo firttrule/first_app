@@ -22,7 +22,7 @@ export default createStore({
       state.cart.push(product)
     },
     REMOVE_FROM_CART: (state, index) => {
-      state.cart.slice(index, 1)
+      state.cart.splice(index, 1)
     },
   },
   actions: {
